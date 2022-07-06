@@ -1,0 +1,15 @@
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\bin\Release\net6.0\B_ControlFlow.exe
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\bin\Release\net6.0\B_ControlFlow.deps.json
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\bin\Release\net6.0\B_ControlFlow.runtimeconfig.json
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\bin\Release\net6.0\B_ControlFlow.dll
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\bin\Release\net6.0\B_ControlFlow.pdb
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\obj\Release\net6.0\B_ControlFlow.csproj.AssemblyReference.cache
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\obj\Release\net6.0\B_ControlFlow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\obj\Release\net6.0\B_ControlFlow.AssemblyInfoInputs.cache
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\obj\Release\net6.0\B_ControlFlow.AssemblyInfo.cs
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\obj\Release\net6.0\B_ControlFlow.csproj.CoreCompileInputs.cache
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\obj\Release\net6.0\B_ControlFlow.dll
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\obj\Release\net6.0\refint\B_ControlFlow.dll
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\obj\Release\net6.0\B_ControlFlow.pdb
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\obj\Release\net6.0\B_ControlFlow.genruntimeconfig.cache
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\B_ControlFlow\obj\Release\net6.0\ref\B_ControlFlow.dll

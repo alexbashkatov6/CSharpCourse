@@ -1,0 +1,15 @@
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\bin\Release\net6.0\CSharpCourse.exe
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\bin\Release\net6.0\CSharpCourse.deps.json
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\bin\Release\net6.0\CSharpCourse.runtimeconfig.json
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\bin\Release\net6.0\CSharpCourse.dll
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\bin\Release\net6.0\CSharpCourse.pdb
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\obj\Release\net6.0\CSharpCourse.csproj.AssemblyReference.cache
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\obj\Release\net6.0\CSharpCourse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\obj\Release\net6.0\CSharpCourse.AssemblyInfoInputs.cache
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\obj\Release\net6.0\CSharpCourse.AssemblyInfo.cs
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\obj\Release\net6.0\CSharpCourse.csproj.CoreCompileInputs.cache
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\obj\Release\net6.0\CSharpCourse.dll
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\obj\Release\net6.0\refint\CSharpCourse.dll
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\obj\Release\net6.0\CSharpCourse.pdb
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\obj\Release\net6.0\CSharpCourse.genruntimeconfig.cache
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\obj\Release\net6.0\ref\CSharpCourse.dll
