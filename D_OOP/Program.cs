@@ -105,11 +105,11 @@ namespace D_OOP
             //Character elf = new Character("elf");
             //Console.WriteLine(elf.Race);
 
-            Character elf = new Character(Race.Elf);
-            Console.WriteLine(elf.Race);
-            Console.WriteLine((int)elf.Race);
+            //Character elf = new Character(Race.Elf);
+            //Console.WriteLine(elf.Race);
+            //Console.WriteLine((int)elf.Race);
 
-            Character no_name = null;
+            //Character no_name = null;
             //int a = null;
 
 
@@ -138,6 +138,43 @@ namespace D_OOP
 
             //List<object> list = new List<object>() { 1, 2, 3 };
             //collection.AddRange(list);
+
+
+
+            MyStack<int> ms_int = new MyStack<int>();
+            ms_int.Push(1);
+            ms_int.Push(2);
+            ms_int.Push(3);
+            Console.WriteLine(ms_int.Peek());
+            ms_int.Pop();
+            Console.WriteLine(ms_int.Peek());
+            ms_int.Push(3);
+            ms_int.Push(4);
+            ms_int.Push(5);
+            Console.WriteLine(ms_int.Peek());
+
+            Console.WriteLine();
+
+            foreach(int i in ms_int)
+            {
+                Console.WriteLine(i);
+            }
+
+            //System.Collections.IEnumerable enumer = (System.Collections.IEnumerable)ms_int;
+            
+            //MyStack<string> ms_str = new MyStack<string>();
+            //ms_str.Push("1");
+            //ms_str.Push("2");
+            //ms_str.Push("3");
+            //Console.WriteLine(ms_str.Peek());
+            //ms_str.Pop();
+            //Console.WriteLine(ms_str.Peek());
+            //ms_str.Push("3");
+            //ms_str.Push("4");
+            //ms_str.Push("5");
+            //Console.WriteLine(ms_str.Peek());
+
+
 
         }
 
