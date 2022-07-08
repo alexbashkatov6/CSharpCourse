@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\E_Exceptions\\E_Exceptions.csproj",
-      "projectName": "E_Exceptions",
-      "projectPath": "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\E_Exceptions\\E_Exceptions.csproj",
+      "projectUniqueName": "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\E_Exceptions\\E_Exceptions_and_Files.csproj",
+      "projectName": "E_Exceptions_and_Files",
+      "projectPath": "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\E_Exceptions\\E_Exceptions_and_Files.csproj",
       "packagesPath": "C:\\Users\\bashkatovaa\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\E_Exceptions\\obj\\",
       "projectStyle": "PackageReference",
