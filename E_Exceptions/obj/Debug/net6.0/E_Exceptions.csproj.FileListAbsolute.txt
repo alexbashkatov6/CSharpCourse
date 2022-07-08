@@ -1,0 +1,15 @@
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\bin\Debug\net6.0\E_Exceptions.exe
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\bin\Debug\net6.0\E_Exceptions.deps.json
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\bin\Debug\net6.0\E_Exceptions.runtimeconfig.json
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\bin\Debug\net6.0\E_Exceptions.dll
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\bin\Debug\net6.0\E_Exceptions.pdb
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\obj\Debug\net6.0\E_Exceptions.csproj.AssemblyReference.cache
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\obj\Debug\net6.0\E_Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\obj\Debug\net6.0\E_Exceptions.AssemblyInfoInputs.cache
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\obj\Debug\net6.0\E_Exceptions.AssemblyInfo.cs
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\obj\Debug\net6.0\E_Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\obj\Debug\net6.0\E_Exceptions.dll
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\obj\Debug\net6.0\refint\E_Exceptions.dll
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\obj\Debug\net6.0\E_Exceptions.pdb
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\obj\Debug\net6.0\E_Exceptions.genruntimeconfig.cache
+C:\Users\bashkatovaa\source\repos\CSharpCourseSolution\CSharpCourse\E_Exceptions\obj\Debug\net6.0\ref\E_Exceptions.dll
