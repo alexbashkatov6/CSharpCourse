@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\Algorithms-DataStruct-Lib.Tests\\Algorithms-DataStruct-Lib.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\Algorithms-DataStruct-Lib.Tests\\Algorithms-DataStruct-Lib.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\Algorithms-DataStruct-Lib.Tests\\Algorithms-DataStruct-Lib.Tests.csproj",
+        "projectName": "Algorithms-DataStruct-Lib.Tests",
+        "projectPath": "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\Algorithms-DataStruct-Lib.Tests\\Algorithms-DataStruct-Lib.Tests.csproj",
+        "packagesPath": "C:\\Users\\bashkatovaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\Algorithms-DataStruct-Lib.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bashkatovaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\F_Algorithms\\F_Algorithms.csproj": {
+                "projectPath": "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\F_Algorithms\\F_Algorithms.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.2.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\F_Algorithms\\F_Algorithms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\F_Algorithms\\F_Algorithms.csproj",
+        "projectName": "F_Algorithms",
+        "projectPath": "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\F_Algorithms\\F_Algorithms.csproj",
+        "packagesPath": "C:\\Users\\bashkatovaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bashkatovaa\\source\\repos\\CSharpCourseSolution\\CSharpCourse\\F_Algorithms\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bashkatovaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
