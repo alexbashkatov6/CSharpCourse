@@ -9,13 +9,29 @@
 
             //ListBCL.Run();
 
-            Node<int> first = new Node<int>(5);
-            Node<int> second = new Node<int>(1);
-            first.Next = second;
-            Node<int> third = new Node<int>(3);
-            second.Next = third;
+            //Node<int> first = new Node<int>(5);
+            //Node<int> second = new Node<int>(1);
+            //first.Next = second;
+            //Node<int> third = new Node<int>(3);
+            //second.Next = third;
 
-            PrintOutLinkedList(first);
+            //PrintOutLinkedList(first);
+
+            var stack = new Stack<int>();  // ArrayStack  LinkedStack
+
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            stack.Push(4);
+
+            foreach(int i in stack)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine();
+            Console.WriteLine(stack.Peek());
+            stack.Pop();
+            Console.WriteLine(stack.Peek());
         }
 
         private static void PrintOutLinkedList(Node<int> node)
