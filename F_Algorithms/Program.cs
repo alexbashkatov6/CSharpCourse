@@ -4,8 +4,27 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(IterativeFactorial(3));
-            Console.WriteLine(RecursiveFactorial(3));
+            //Console.WriteLine(IterativeFactorial(3));
+            //Console.WriteLine(RecursiveFactorial(3));
+
+            //ListBCL.Run();
+
+            Node<int> first = new Node<int>(5);
+            Node<int> second = new Node<int>(1);
+            first.Next = second;
+            Node<int> third = new Node<int>(3);
+            second.Next = third;
+
+            PrintOutLinkedList(first);
+        }
+
+        private static void PrintOutLinkedList(Node<int> node)
+        {
+            while (node != null)
+            {
+                Console.WriteLine(node.Value);
+                node = node.Next;
+            }
         }
 
         private static int IterativeFactorial(int number)
