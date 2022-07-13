@@ -35,20 +35,32 @@ namespace F_Algorithms
             //stack.Pop();
             //Console.WriteLine(stack.Peek());
 
-            var customerList = new List<Customer>()
+            //var customerList = new List<Customer>()
+            //{
+            //    new Customer {Age=3, Name="Ann"},
+            //    new Customer {Age=16, Name="Bill"},
+            //    new Customer {Age=20, Name="Rose"},
+            //    new Customer {Age=14, Name="Rob"},
+            //    new Customer {Age=28, Name="Bill"},
+            //    new Customer {Age=14, Name="John"},
+            //};
+
+            //var intList = new List<int>() { 1, 4, 2, 7, 5, 9, 12, 3, 2, 1 };
+
+            //bool contains = intList.Contains(3);
+            //bool contains2 = customerList.Contains(new Customer{Age=14, Name = "Rob"}, new CustomersComparer());
+
+            SequantialSearchSt<int, string> st = new SequantialSearchSt<int, string>();
+            st.Add(1, "A");
+            st.Add(2, "B");
+            st.Add(3, "C");
+            Console.WriteLine(st.Remove(3)); 
+            foreach (int key in st.Keys())
             {
-                new Customer {Age=3, Name="Ann"},
-                new Customer {Age=16, Name="Bill"},
-                new Customer {Age=20, Name="Rose"},
-                new Customer {Age=14, Name="Rob"},
-                new Customer {Age=28, Name="Bill"},
-                new Customer {Age=14, Name="John"},
-            };
-
-            var intList = new List<int>() { 1, 4, 2, 7, 5, 9, 12, 3, 2, 1 };
-
-            bool contains = intList.Contains(3);
-            bool contains2 = customerList.Contains(new Customer{Age=14, Name = "Rob"}, new CustomersComparer());
+                //string val = null;
+                st.TryGet(key, out string val);
+                Console.WriteLine($"{key} {val}");
+            }
 
         }
 
