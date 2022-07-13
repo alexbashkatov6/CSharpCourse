@@ -1,4 +1,6 @@
-﻿namespace F_Algorithms
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace F_Algorithms
 {
     class Program
     {
@@ -17,21 +19,70 @@
 
             //PrintOutLinkedList(first);
 
-            var stack = new Stack<int>();  // ArrayStack  LinkedStack
+            //var stack = new Stack<int>();  // ArrayStack  LinkedStack
 
-            stack.Push(1);
-            stack.Push(2);
-            stack.Push(3);
-            stack.Push(4);
+            //stack.Push(1);
+            //stack.Push(2);
+            //stack.Push(3);
+            //stack.Push(4);
 
-            foreach(int i in stack)
+            //foreach(int i in stack)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine(stack.Peek());
+            //stack.Pop();
+            //Console.WriteLine(stack.Peek());
+
+            var customerList = new List<Customer>()
             {
-                Console.WriteLine(i);
+                new Customer {Age=3, Name="Ann"},
+                new Customer {Age=16, Name="Bill"},
+                new Customer {Age=20, Name="Rose"},
+                new Customer {Age=14, Name="Rob"},
+                new Customer {Age=28, Name="Bill"},
+                new Customer {Age=14, Name="John"},
+            };
+
+            var intList = new List<int>() { 1, 4, 2, 7, 5, 9, 12, 3, 2, 1 };
+
+            bool contains = intList.Contains(3);
+            bool contains2 = customerList.Contains(new Customer{Age=14, Name = "Rob"}, new CustomersComparer());
+
+        }
+
+        internal class CustomersComparer : IEqualityComparer<Customer>
+        {
+            public bool Equals(Customer? x, Customer? y)
+            {
+                return (x.Name == y.Name) && (x.Age == y.Age);
             }
-            Console.WriteLine();
-            Console.WriteLine(stack.Peek());
-            stack.Pop();
-            Console.WriteLine(stack.Peek());
+
+            public int GetHashCode([DisallowNull] Customer obj)
+            {
+                return obj.GetHashCode();
+            }
+        }
+
+        private static bool Exists(int[] array, int number)
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] == number)
+                    return true;
+            }
+            return false;
+        }
+
+        private static int IndexOf(int[] array, int number)
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+                if (array[i] == number)
+                    return i;
+            }
+            return -1;
         }
 
         private static void PrintOutLinkedList(Node<int> node)

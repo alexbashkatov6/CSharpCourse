@@ -10,5 +10,6 @@ namespace F_Algorithms
     {
         public DateTime BirthDate;
         public string Name;
+        public int Age;
     }
 }
