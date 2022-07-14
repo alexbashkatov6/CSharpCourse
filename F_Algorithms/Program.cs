@@ -50,18 +50,55 @@ namespace F_Algorithms
             //bool contains = intList.Contains(3);
             //bool contains2 = customerList.Contains(new Customer{Age=14, Name = "Rob"}, new CustomersComparer());
 
-            SequantialSearchSt<int, string> st = new SequantialSearchSt<int, string>();
-            st.Add(1, "A");
-            st.Add(2, "B");
-            st.Add(3, "C");
-            Console.WriteLine(st.Remove(3)); 
-            foreach (int key in st.Keys())
-            {
-                //string val = null;
-                st.TryGet(key, out string val);
-                Console.WriteLine($"{key} {val}");
-            }
+            //SequantialSearchSt<int, string> st = new SequantialSearchSt<int, string>();
+            //st.Add(1, "A");
+            //st.Add(2, "B");
+            //st.Add(3, "C");
+            //Console.WriteLine(st.Remove(3)); 
+            //foreach (int key in st.Keys())
+            //{
+            //    //string val = null;
+            //    st.TryGet(key, out string val);
+            //    Console.WriteLine($"{key} {val}");
+            //}
 
+
+            //var books = new Dictionary<int, string>();
+            //books.Add(1, "The lord of the Rings");
+            //books.Add(2, "A tale of Two Cities");
+            //books.Add(1, "sdsd"); // exception
+
+            //string bookName = books[1];
+
+            //Console.WriteLine(bookName);
+
+
+            var number1 = new PhoneNumber(areaCode: "141804", exchange: "27", number: "90319334");
+            var number2 = new PhoneNumber(areaCode: "141804", exchange: "27", number: "90319334");
+
+            Console.WriteLine(number1.GetHashCode());
+            Console.WriteLine(number2.GetHashCode());
+            Console.WriteLine(number1== number2);
+            Console.WriteLine(number1.Equals(number2));
+
+            var customers = new Dictionary<PhoneNumber, Person>();
+            customers.Add(number1, new Person());
+            //customers.Add(number2, new Person()); // error after GetHashCode implementation
+
+            Console.WriteLine(customers[number2]);
+
+            Console.WriteLine("Before changing number");
+
+            Console.WriteLine(customers.ContainsKey(number2));
+
+            //number1.AreaCode = "141805"; // error after making private setter
+
+            Console.WriteLine("After changing number");
+            Console.WriteLine(customers.ContainsKey(number2));
+
+            Console.WriteLine(customers[number2]);
+
+            Console.WriteLine("After all");
         }
 
         internal class CustomersComparer : IEqualityComparer<Customer>
