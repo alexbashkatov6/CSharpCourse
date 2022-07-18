@@ -78,7 +78,7 @@ namespace F_Algorithms
 
             Console.WriteLine(number1.GetHashCode());
             Console.WriteLine(number2.GetHashCode());
-            Console.WriteLine(number1== number2);
+            Console.WriteLine(number1 == number2);
             Console.WriteLine(number1.Equals(number2));
 
             var customers = new Dictionary<PhoneNumber, Person>();
