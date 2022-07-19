@@ -73,32 +73,93 @@ namespace F_Algorithms
             //Console.WriteLine(bookName);
 
 
-            var number1 = new PhoneNumber(areaCode: "141804", exchange: "27", number: "90319334");
-            var number2 = new PhoneNumber(areaCode: "141804", exchange: "27", number: "90319334");
+            //var number1 = new PhoneNumber(areaCode: "141804", exchange: "27", number: "90319334");
+            //var number2 = new PhoneNumber(areaCode: "141804", exchange: "27", number: "90319334");
 
-            Console.WriteLine(number1.GetHashCode());
-            Console.WriteLine(number2.GetHashCode());
-            Console.WriteLine(number1 == number2);
-            Console.WriteLine(number1.Equals(number2));
+            //Console.WriteLine(number1.GetHashCode());
+            //Console.WriteLine(number2.GetHashCode());
+            //Console.WriteLine(number1 == number2);
+            //Console.WriteLine(number1.Equals(number2));
 
-            var customers = new Dictionary<PhoneNumber, Person>();
-            customers.Add(number1, new Person());
-            //customers.Add(number2, new Person()); // error after GetHashCode implementation
+            //var customers = new Dictionary<PhoneNumber, Person>();
+            //customers.Add(number1, new Person());
+            ////customers.Add(number2, new Person()); // error after GetHashCode implementation
 
-            Console.WriteLine(customers[number2]);
+            //Console.WriteLine(customers[number2]);
 
-            Console.WriteLine("Before changing number");
+            //Console.WriteLine("Before changing number");
 
-            Console.WriteLine(customers.ContainsKey(number2));
+            //Console.WriteLine(customers.ContainsKey(number2));
 
-            //number1.AreaCode = "141805"; // error after making private setter
+            ////number1.AreaCode = "141805"; // error after making private setter
 
-            Console.WriteLine("After changing number");
-            Console.WriteLine(customers.ContainsKey(number2));
+            //Console.WriteLine("After changing number");
+            //Console.WriteLine(customers.ContainsKey(number2));
 
-            Console.WriteLine(customers[number2]);
+            //Console.WriteLine(customers[number2]);
 
-            Console.WriteLine("After all");
+            //Console.WriteLine("After all");
+
+            //var bstTest = new Bst<int>();
+            //bstTest.Insert(37);
+            //bstTest.Insert(24);
+            //bstTest.Insert(17);
+            //bstTest.Insert(28);
+            //bstTest.Insert(31);
+            //bstTest.Insert(29);
+            //bstTest.Insert(15);
+            //bstTest.Insert(12);
+            //bstTest.Insert(20);
+
+            //foreach (var i in bstTest.TraverseInOrder())
+            //{
+            //    //Console.WriteLine("new line");
+            //    Console.Write($"{i} ");
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine(bstTest.Min());
+            //Console.WriteLine(bstTest.Max());
+            //Console.WriteLine(bstTest.Get(20).Value);
+
+            var heap = new MaxHeap<int>();
+            heap.Insert(24);
+            heap.Insert(37);
+            heap.Insert(17);
+            heap.Insert(28);
+            heap.Insert(31);
+            heap.Insert(29);
+            heap.Insert(15);
+            heap.Insert(12);
+            heap.Insert(20);
+            foreach (var val in heap.Values())
+            {
+                Console.Write($"{val} ");
+            }
+            Console.WriteLine();
+
+            Console.WriteLine(heap.Peek());
+            Console.WriteLine(heap.Remove());
+            foreach (var val in heap.Values())
+            {
+                Console.Write($"{val} ");
+            }
+            Console.WriteLine();
+
+            Console.WriteLine(heap.Peek());
+            heap.Insert(40);
+            Console.WriteLine(heap.Peek());
+            foreach (var val in heap.Values())
+            {
+                Console.Write($"{val} ");
+            }
+            Console.WriteLine();
+
+            heap.Sort();
+            foreach (var val in heap.Values())
+            {
+                Console.Write($"{val} ");
+            }
+            Console.WriteLine();
         }
 
         internal class CustomersComparer : IEqualityComparer<Customer>

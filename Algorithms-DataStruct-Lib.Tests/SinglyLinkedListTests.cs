@@ -11,7 +11,7 @@ namespace Algorithms_DataStruct_Lib.Tests
     [TestFixture]
     public class SinglyLinkedListTests
     {
-        private F_Algorithms.SinglyLinkedList<int> list;
+        private SinglyLinkedList<int> list;
         [SetUp]
         public void Init()
         {

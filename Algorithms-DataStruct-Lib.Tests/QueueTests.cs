@@ -10,7 +10,7 @@ namespace Algorithms_DataStruct_Lib.Tests
     [TestFixture]
     public class QueueTests
     {
-        private F_Algorithms.LinkedQueue<int> queue;  // ArrayQueue CircularQueue LinkedQueue
+        private LinkedQueue<int> queue;  // ArrayQueue CircularQueue LinkedQueue
         [SetUp]
         public void Init()
         {

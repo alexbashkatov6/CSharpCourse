@@ -10,7 +10,7 @@ namespace Algorithms_DataStruct_Lib.Tests
     [TestFixture]
     public class StackTests
     {
-        private F_Algorithms.LinkedStack<int> stack;  // ArrayStack
+        private LinkedStack<int> stack;  // ArrayStack
         [SetUp]
         public void Init()
         {
